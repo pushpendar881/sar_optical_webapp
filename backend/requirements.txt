@@ -1,0 +1,12 @@
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+python-multipart==0.0.12
+torch
+torchvision
+numpy
+pillow
+opencv-python-headless
+huggingface_hub
+ultralytics
+# Detectron2 must be built against the local torch:
+#   pip install --no-build-isolation 'git+https://github.com/facebookresearch/detectron2.git'

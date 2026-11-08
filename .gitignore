@@ -1,0 +1,46 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node
+node_modules/
+.next/
+out/
+dist/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+
+# Generated files
+runs/
+
+# Python virtual environment
+backend/.venv/
+
+# Model checkpoints
+*.pth
+*.pt
+*.ckpt
+
+# Hugging Face cache
+backend/data/hf_cache/
+
+# Generated model outputs
+backend/runs/
+
+# Frontend dependencies and build
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/dist/
